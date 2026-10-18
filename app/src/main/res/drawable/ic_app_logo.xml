@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <!-- Rounded Background Square -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M200,100 L824,100 A100,100 0 0 1 924,200 L924,824 A100,100 0 0 1 824,924 L200,924 A100,100 0 0 1 100,824 L100,200 A100,100 0 0 1 200,100 Z" />
+
+    <!-- White Bell -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M512,180c-25,0 -45,20 -45,45v15c-90,20 -140,90 -140,180v160c0,60 -40,80 -40,80v40h440v-40c0,0 -40,-20 -40,-80v-160c0,-90 -50,-160 -140,-180v-15c0,-25 -20,-45 -45,-45z M512,740c30,0 55,-25 55,-55h-110c0,30 25,55 55,55z" />
+
+    <!-- Highlight on the right -->
+    <path
+        android:fillColor="#000000"
+        android:alpha="0.1"
+        android:pathData="M600,400c0,0 30,50 30,150s-30,150 -30,150h20c0,0 30,-50 30,-150s-30,-150 -30,-150z" />
+</vector>
